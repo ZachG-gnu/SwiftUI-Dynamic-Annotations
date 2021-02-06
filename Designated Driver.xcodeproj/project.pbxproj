@@ -18,10 +18,7 @@
 		BF8615CF258CB50000CEDB68 /* MapViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8615CE258CB50000CEDB68 /* MapViewContainer.swift */; };
 		BF8615E3258D875200CEDB68 /* TrackingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8615E2258D875200CEDB68 /* TrackingButtonView.swift */; };
 		BFA0B1A425A26A1D00982942 /* AddContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA0B1A325A26A1D00982942 /* AddContentView.swift */; };
-		BFA0B1A925AA466000982942 /* AnnotationFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA0B1A825AA466000982942 /* AnnotationFormView.swift */; };
-		BFA0B1AE25AA4E0D00982942 /* MapSnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA0B1AD25AA4E0D00982942 /* MapSnapshotView.swift */; };
 		BFCA229D25B2572A009997FE /* MKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA229C25B25729009997FE /* MKPointAnnotation.swift */; };
-		BFCA22A225B53FC4009997FE /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA22A125B53FC4009997FE /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +56,7 @@
 		BF8615CE258CB50000CEDB68 /* MapViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContainer.swift; sourceTree = "<group>"; };
 		BF8615E2258D875200CEDB68 /* TrackingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingButtonView.swift; sourceTree = "<group>"; };
 		BFA0B1A325A26A1D00982942 /* AddContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContentView.swift; sourceTree = "<group>"; };
-		BFA0B1A825AA466000982942 /* AnnotationFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationFormView.swift; sourceTree = "<group>"; };
-		BFA0B1AD25AA4E0D00982942 /* MapSnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSnapshotView.swift; sourceTree = "<group>"; };
 		BFCA229C25B25729009997FE /* MKPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKPointAnnotation.swift; sourceTree = "<group>"; };
-		BFCA22A125B53FC4009997FE /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +117,7 @@
 				BF8615CE258CB50000CEDB68 /* MapViewContainer.swift */,
 				BF8615E2258D875200CEDB68 /* TrackingButtonView.swift */,
 				BFA0B1A325A26A1D00982942 /* AddContentView.swift */,
-				BFA0B1A825AA466000982942 /* AnnotationFormView.swift */,
-				BFA0B1AD25AA4E0D00982942 /* MapSnapshotView.swift */,
 				BFCA229C25B25729009997FE /* MKPointAnnotation.swift */,
-				BFCA22A125B53FC4009997FE /* PostView.swift */,
 			);
 			path = "Designated Driver";
 			sourceTree = "<group>";
@@ -292,11 +283,8 @@
 				BFCA229D25B2572A009997FE /* MKPointAnnotation.swift in Sources */,
 				BF8615CA258C9EAB00CEDB68 /* MapView.swift in Sources */,
 				BF8615E3258D875200CEDB68 /* TrackingButtonView.swift in Sources */,
-				BFA0B1A925AA466000982942 /* AnnotationFormView.swift in Sources */,
 				BF8615C5258C91AC00CEDB68 /* MKMapViewRepresentable.swift in Sources */,
-				BFA0B1AE25AA4E0D00982942 /* MapSnapshotView.swift in Sources */,
 				BF861597258C909F00CEDB68 /* Designated_DriverApp.swift in Sources */,
-				BFCA22A225B53FC4009997FE /* PostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,9 +21,7 @@ struct AddContentView: View {
                     Button(action: {showingDetail.toggle()}, label: {
                         Image(systemName: "plus").foregroundColor(.white)
                             .padding(8)
-                    }).fullScreenCover(isPresented: $showingDetail){
-                        AnnotationFormView(coordinates: getUserLocation())
-                    }
+                    })
                     .background(Color.blue)
                     .cornerRadius(40)
                     .padding()
@@ -42,11 +40,3 @@ struct AddContentView_Previews: PreviewProvider {
         AddContentView()
     }
 }
-
-//Saving code:
-//TextField("Enter text here...", text: $text)
-//    .padding()
-//    .font(.body)
-//    .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color(UIColor.lightGray)))
-//    .padding(10)
-//}.background(Color.white)

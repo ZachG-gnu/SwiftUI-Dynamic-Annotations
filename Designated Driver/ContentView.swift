@@ -12,13 +12,6 @@ struct ContentView: View {
     
     var body: some View {
         MapView().environmentObject(MapViewContainer())
-//        VStack{
-//            Spacer()
-//            HStack{
-//                Spacer()
-//                Button(action: {postsModel.posts.append(Post(content: "New Post", coordinate: centerCoord))})
-//            }
-//        }
     }
 }
 
