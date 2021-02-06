@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF861597258C909F00CEDB68 /* Designated_DriverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF861596258C909F00CEDB68 /* Designated_DriverApp.swift */; };
+		BF861599258C90A000CEDB68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF861598258C90A000CEDB68 /* ContentView.swift */; };
+		BF86159B258C90A500CEDB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF86159A258C90A500CEDB68 /* Assets.xcassets */; };
+		BF86159E258C90A500CEDB68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF86159D258C90A500CEDB68 /* Preview Assets.xcassets */; };
+		BF8615A9258C90A500CEDB68 /* Designated_DriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8615A8258C90A500CEDB68 /* Designated_DriverTests.swift */; };
+		BF8615B4258C90A500CEDB68 /* Designated_DriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8615B3258C90A500CEDB68 /* Designated_DriverUITests.swift */; };
+		BF8615C5258C91AC00CEDB68 /* MKMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8615C4258C91AC00CEDB68 /* MKMapViewRepresentable.swift */; };
+		BF8615CA258C9EAB00CEDB68 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8615C9258C9EAB00CEDB68 /* MapView.swift */; };
+		BF8615CF258CB50000CEDB68 /* MapViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8615CE258CB50000CEDB68 /* MapViewContainer.swift */; };
+		BF8615E3258D875200CEDB68 /* TrackingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8615E2258D875200CEDB68 /* TrackingButtonView.swift */; };
+		BFA0B1A425A26A1D00982942 /* AddContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA0B1A325A26A1D00982942 /* AddContentView.swift */; };
+		BFA0B1A925AA466000982942 /* AnnotationFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA0B1A825AA466000982942 /* AnnotationFormView.swift */; };
+		BFA0B1AE25AA4E0D00982942 /* MapSnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA0B1AD25AA4E0D00982942 /* MapSnapshotView.swift */; };
+		BFCA229D25B2572A009997FE /* MKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA229C25B25729009997FE /* MKPointAnnotation.swift */; };
+		BFCA22A225B53FC4009997FE /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCA22A125B53FC4009997FE /* PostView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF8615A5258C90A500CEDB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF86158B258C909F00CEDB68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF861592258C909F00CEDB68;
+			remoteInfo = "Designated Driver";
+		};
+		BF8615B0258C90A500CEDB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF86158B258C909F00CEDB68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF861592258C909F00CEDB68;
+			remoteInfo = "Designated Driver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF861593258C909F00CEDB68 /* Designated Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Designated Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF861596258C909F00CEDB68 /* Designated_DriverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designated_DriverApp.swift; sourceTree = "<group>"; };
+		BF861598258C90A000CEDB68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF86159A258C90A500CEDB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF86159D258C90A500CEDB68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF86159F258C90A500CEDB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8615A4258C90A500CEDB68 /* Designated DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Designated DriverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8615A8258C90A500CEDB68 /* Designated_DriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designated_DriverTests.swift; sourceTree = "<group>"; };
+		BF8615AA258C90A500CEDB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8615AF258C90A500CEDB68 /* Designated DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Designated DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8615B3258C90A500CEDB68 /* Designated_DriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designated_DriverUITests.swift; sourceTree = "<group>"; };
+		BF8615B5258C90A500CEDB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8615C4258C91AC00CEDB68 /* MKMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewRepresentable.swift; sourceTree = "<group>"; };
+		BF8615C9258C9EAB00CEDB68 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BF8615CE258CB50000CEDB68 /* MapViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContainer.swift; sourceTree = "<group>"; };
+		BF8615E2258D875200CEDB68 /* TrackingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingButtonView.swift; sourceTree = "<group>"; };
+		BFA0B1A325A26A1D00982942 /* AddContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContentView.swift; sourceTree = "<group>"; };
+		BFA0B1A825AA466000982942 /* AnnotationFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationFormView.swift; sourceTree = "<group>"; };
+		BFA0B1AD25AA4E0D00982942 /* MapSnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSnapshotView.swift; sourceTree = "<group>"; };
+		BFCA229C25B25729009997FE /* MKPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKPointAnnotation.swift; sourceTree = "<group>"; };
+		BFCA22A125B53FC4009997FE /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF861590258C909F00CEDB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8615A1258C90A500CEDB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8615AC258C90A500CEDB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF86158A258C909F00CEDB68 = {
+			isa = PBXGroup;
+			children = (
+				BF861595258C909F00CEDB68 /* Designated Driver */,
+				BF8615A7258C90A500CEDB68 /* Designated DriverTests */,
+				BF8615B2258C90A500CEDB68 /* Designated DriverUITests */,
+				BF861594258C909F00CEDB68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF861594258C909F00CEDB68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF861593258C909F00CEDB68 /* Designated Driver.app */,
+				BF8615A4258C90A500CEDB68 /* Designated DriverTests.xctest */,
+				BF8615AF258C90A500CEDB68 /* Designated DriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF861595258C909F00CEDB68 /* Designated Driver */ = {
+			isa = PBXGroup;
+			children = (
+				BF861596258C909F00CEDB68 /* Designated_DriverApp.swift */,
+				BF861598258C90A000CEDB68 /* ContentView.swift */,
+				BF86159A258C90A500CEDB68 /* Assets.xcassets */,
+				BF86159F258C90A500CEDB68 /* Info.plist */,
+				BF86159C258C90A500CEDB68 /* Preview Content */,
+				BF8615C4258C91AC00CEDB68 /* MKMapViewRepresentable.swift */,
+				BF8615C9258C9EAB00CEDB68 /* MapView.swift */,
+				BF8615CE258CB50000CEDB68 /* MapViewContainer.swift */,
+				BF8615E2258D875200CEDB68 /* TrackingButtonView.swift */,
+				BFA0B1A325A26A1D00982942 /* AddContentView.swift */,
+				BFA0B1A825AA466000982942 /* AnnotationFormView.swift */,
+				BFA0B1AD25AA4E0D00982942 /* MapSnapshotView.swift */,
+				BFCA229C25B25729009997FE /* MKPointAnnotation.swift */,
+				BFCA22A125B53FC4009997FE /* PostView.swift */,
+			);
+			path = "Designated Driver";
+			sourceTree = "<group>";
+		};
+		BF86159C258C90A500CEDB68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF86159D258C90A500CEDB68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF8615A7258C90A500CEDB68 /* Designated DriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8615A8258C90A500CEDB68 /* Designated_DriverTests.swift */,
+				BF8615AA258C90A500CEDB68 /* Info.plist */,
+			);
+			path = "Designated DriverTests";
+			sourceTree = "<group>";
+		};
+		BF8615B2258C90A500CEDB68 /* Designated DriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8615B3258C90A500CEDB68 /* Designated_DriverUITests.swift */,
+				BF8615B5258C90A500CEDB68 /* Info.plist */,
+			);
+			path = "Designated DriverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF861592258C909F00CEDB68 /* Designated Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8615B8258C90A500CEDB68 /* Build configuration list for PBXNativeTarget "Designated Driver" */;
+			buildPhases = (
+				BF86158F258C909F00CEDB68 /* Sources */,
+				BF861590258C909F00CEDB68 /* Frameworks */,
+				BF861591258C909F00CEDB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Designated Driver";
+			productName = "Designated Driver";
+			productReference = BF861593258C909F00CEDB68 /* Designated Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF8615A3258C90A500CEDB68 /* Designated DriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8615BB258C90A500CEDB68 /* Build configuration list for PBXNativeTarget "Designated DriverTests" */;
+			buildPhases = (
+				BF8615A0258C90A500CEDB68 /* Sources */,
+				BF8615A1258C90A500CEDB68 /* Frameworks */,
+				BF8615A2258C90A500CEDB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8615A6258C90A500CEDB68 /* PBXTargetDependency */,
+			);
+			name = "Designated DriverTests";
+			productName = "Designated DriverTests";
+			productReference = BF8615A4258C90A500CEDB68 /* Designated DriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF8615AE258C90A500CEDB68 /* Designated DriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8615BE258C90A500CEDB68 /* Build configuration list for PBXNativeTarget "Designated DriverUITests" */;
+			buildPhases = (
+				BF8615AB258C90A500CEDB68 /* Sources */,
+				BF8615AC258C90A500CEDB68 /* Frameworks */,
+				BF8615AD258C90A500CEDB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8615B1258C90A500CEDB68 /* PBXTargetDependency */,
+			);
+			name = "Designated DriverUITests";
+			productName = "Designated DriverUITests";
+			productReference = BF8615AF258C90A500CEDB68 /* Designated DriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF86158B258C909F00CEDB68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BF861592258C909F00CEDB68 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					BF8615A3258C90A500CEDB68 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BF861592258C909F00CEDB68;
+					};
+					BF8615AE258C90A500CEDB68 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BF861592258C909F00CEDB68;
+					};
+				};
+			};
+			buildConfigurationList = BF86158E258C909F00CEDB68 /* Build configuration list for PBXProject "Designated Driver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF86158A258C909F00CEDB68;
+			productRefGroup = BF861594258C909F00CEDB68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF861592258C909F00CEDB68 /* Designated Driver */,
+				BF8615A3258C90A500CEDB68 /* Designated DriverTests */,
+				BF8615AE258C90A500CEDB68 /* Designated DriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF861591258C909F00CEDB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF86159E258C90A500CEDB68 /* Preview Assets.xcassets in Resources */,
+				BF86159B258C90A500CEDB68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8615A2258C90A500CEDB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8615AD258C90A500CEDB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF86158F258C909F00CEDB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8615CF258CB50000CEDB68 /* MapViewContainer.swift in Sources */,
+				BFA0B1A425A26A1D00982942 /* AddContentView.swift in Sources */,
+				BF861599258C90A000CEDB68 /* ContentView.swift in Sources */,
+				BFCA229D25B2572A009997FE /* MKPointAnnotation.swift in Sources */,
+				BF8615CA258C9EAB00CEDB68 /* MapView.swift in Sources */,
+				BF8615E3258D875200CEDB68 /* TrackingButtonView.swift in Sources */,
+				BFA0B1A925AA466000982942 /* AnnotationFormView.swift in Sources */,
+				BF8615C5258C91AC00CEDB68 /* MKMapViewRepresentable.swift in Sources */,
+				BFA0B1AE25AA4E0D00982942 /* MapSnapshotView.swift in Sources */,
+				BF861597258C909F00CEDB68 /* Designated_DriverApp.swift in Sources */,
+				BFCA22A225B53FC4009997FE /* PostView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8615A0258C90A500CEDB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8615A9258C90A500CEDB68 /* Designated_DriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8615AB258C90A500CEDB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8615B4258C90A500CEDB68 /* Designated_DriverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF8615A6258C90A500CEDB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF861592258C909F00CEDB68 /* Designated Driver */;
+			targetProxy = BF8615A5258C90A500CEDB68 /* PBXContainerItemProxy */;
+		};
+		BF8615B1258C90A500CEDB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF861592258C909F00CEDB68 /* Designated Driver */;
+			targetProxy = BF8615B0258C90A500CEDB68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF8615B6258C90A500CEDB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF8615B7258C90A500CEDB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF8615B9258C90A500CEDB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Designated Driver/Preview Content\"";
+				DEVELOPMENT_TEAM = 3K5Z7M985A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Designated Driver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ZG.Designated-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF8615BA258C90A500CEDB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Designated Driver/Preview Content\"";
+				DEVELOPMENT_TEAM = 3K5Z7M985A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Designated Driver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ZG.Designated-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF8615BC258C90A500CEDB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Designated DriverTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ZG.Designated-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Designated Driver.app/Designated Driver";
+			};
+			name = Debug;
+		};
+		BF8615BD258C90A500CEDB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Designated DriverTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ZG.Designated-DriverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Designated Driver.app/Designated Driver";
+			};
+			name = Release;
+		};
+		BF8615BF258C90A500CEDB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Designated DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ZG.Designated-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Designated Driver";
+			};
+			name = Debug;
+		};
+		BF8615C0258C90A500CEDB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Designated DriverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ZG.Designated-DriverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Designated Driver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF86158E258C909F00CEDB68 /* Build configuration list for PBXProject "Designated Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8615B6258C90A500CEDB68 /* Debug */,
+				BF8615B7258C90A500CEDB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8615B8258C90A500CEDB68 /* Build configuration list for PBXNativeTarget "Designated Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8615B9258C90A500CEDB68 /* Debug */,
+				BF8615BA258C90A500CEDB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8615BB258C90A500CEDB68 /* Build configuration list for PBXNativeTarget "Designated DriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8615BC258C90A500CEDB68 /* Debug */,
+				BF8615BD258C90A500CEDB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8615BE258C90A500CEDB68 /* Build configuration list for PBXNativeTarget "Designated DriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8615BF258C90A500CEDB68 /* Debug */,
+				BF8615C0258C90A500CEDB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF86158B258C909F00CEDB68 /* Project object */;
+}
